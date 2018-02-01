@@ -1,4 +1,4 @@
-package com.example.websocket.service;
+package com.example.websocket;
 
 import java.net.URI;
 import java.net.URISyntaxException;
