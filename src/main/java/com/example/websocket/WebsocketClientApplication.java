@@ -7,15 +7,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WebsocketClientApplication {
 
 	public static void main(String[] args) {
+		
 		SpringApplication.run(WebsocketClientApplication.class, args);
 		
-		
-		try {
-			NewClient.mainTest();
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+//		try {
+//			LogHandlerService.createConnect();
+//		} catch (InterruptedException e) {
+//			e.printStackTrace();
+//		}
 	}
 	
 }
